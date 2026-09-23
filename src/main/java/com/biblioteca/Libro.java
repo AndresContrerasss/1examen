@@ -11,4 +11,21 @@ public class Libro {
     private String autor;
     private int numeroEjemplares;
     private int numeroEjemplaresPrestados;
+
+       // Constructor por defecto
+    public Libro() {
+        this.titulo = "";
+        this.autor = "";
+        this.numeroEjemplares = 0;
+        this.numeroEjemplaresPrestados = 0;
+    }
+
+    // Constructor con parametros
+    public Libro(String titulo, String autor, int numeroEjemplares, int numeroEjemplaresPrestados) {
+        this.titulo = titulo;
+        this.autor = autor;
+        this.numeroEjemplares = numeroEjemplares;
+        this.numeroEjemplaresPrestados = numeroEjemplaresPrestados;
+    }
+
 }

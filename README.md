@@ -1,7 +1,7 @@
 # Parcial I - Programación II - G411
 ## Sistema de gestión de biblioteca (POO: Abstracción, Encapsulamiento y Herencia)
 
-Proyecto Maven muy simple, sin librerías externas (solo lo básico del JDK: `Scanner` para leer datos por consola).
+
 
 ---
 
